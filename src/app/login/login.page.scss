@@ -1,0 +1,29 @@
+.background-image {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 50px;
+  background-image: url('./login.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 0px 30px rgba(226, 3, 3, 0.5);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 50;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 100px;
+  font-family: Tahoma;
+  color: #e7eaec;
+  text-shadow: 2px 2px 4px rgb(250, 245, 245);
+}
+
